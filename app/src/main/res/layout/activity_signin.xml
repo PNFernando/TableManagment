@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/back"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context = ".SignInPageActivity_">
+
+
+
+
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="#00ffffff"
+        android:layout_width="734dp"
+        android:layout_height="450dp"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/linearLayout"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_username"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/tvOrderTotal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"
+            android:elevation="10dp"
+            android:hint="Username"
+           />
+
+        <EditText
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_email"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/tvOrderTotal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:elevation="10dp"
+            android:hint="Email" />
+
+        <EditText
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/txt_password"
+            android:layout_marginTop="10dp"
+            android:layout_alignBottom="@+id/linearLayout2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:hint="Password"
+            android:textColor="#ffffff"  />
+
+        <EditText
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/txt_confirm_password"
+            android:layout_marginTop="30dp"
+            android:layout_alignBottom="@+id/linearLayout2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:hint="Confirm Password"
+            android:textColor="#ffffff"  />
+
+
+        <TextView
+            android:textSize="@dimen/abc_text_size_body_1_material"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:textColor="#ffffff"
+            android:layout_height="30dp"
+            android:text="Gender"/>
+
+
+        <Spinner
+            android:textStyle="bold"
+            android:layout_width="129dp"
+            android:layout_marginTop="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:textColor="#ffffff"
+            android:hint = "Gender"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:textStyle="bold"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="NEXT >"
+            android:textColor="#FFF"
+            android:background="#697b7b7b"
+            android:id="@+id/btNext"
+            android:layout_below="@+id/linearLayout2" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loding"
+    android:weightSum="1"
+    tools:context=".LoadingPageActivity_">
+
+
+    <TextView
+        android:layout_width="130dp"
+        android:textColor="#ff272ee8"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Login....."
+        android:id="@+id/textView3" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:paddingLeft="20dp"
+        android:textColor="#ffe85b60"
+        android:textStyle="bold"
+        android:layout_marginTop="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="We are giving to you five"
+        android:id="@+id/textView4" />
+
+    <TextView
+        android:textColor="#ffe85b60"
+        android:textStyle="bold"
+        android:paddingLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" person on your interresting...."
+        android:id="@+id/textView5" />
+
+
+    <TextView
+        android:textColor="#ffe8b927"
+        android:textStyle="bold"
+        android:paddingLeft="240dp"
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Searching...."
+        android:id="@+id/textView6" />
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chatty.v0.01</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <color name="colorPrimary">#fff5e0d7</color>
+    <color name="colorPrimaryDark">#ffc5a8a6</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#fffffdf4</color>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_item_chatty">Chatty</string>
+    <string name="nav_item_newchatty">New Chatty</string>
+    <string name="nav_item_alerts">Alerts</string>
+    <string name="nav_item_mates">My Mates</string>
+
+    <!-- navigation drawer item labels -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_alerts</item>
+        <item>@string/nav_item_chatty</item>
+        <item>@string/nav_item_newchatty</item>
+        <item>@string/nav_item_mates</item>
+    </string-array>
+
+    <string name="title_chatty">Chatty</string>
+    <string name="title_newchatty">New Chatty</string>
+    <string name="title_alerts">Alerts</string>
+    <string name="title_mates">My Mates</string>
+    <string name="PostiveYesButton">Yes</string>
+    <string name="NegativeNoButton">No</string>
+    <string name="title_activity_home_page">HomePageActivity</string>
+    <string name="title_activity_category_page">CategoryPageActivity</string>
+    <string name="title_activity_food_item">FoodItemActivity</string>
+
+</resources>

@@ -1,0 +1,74 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/frame"
+    android:padding="5dp">
+
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/anushka"></ImageView>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="156dp"
+
+        android:layout_below ="@+id/frame"
+        android:background="#796c6c6c"
+        android:orientation="horizontal">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Pramoda"
+                android:textColor="#fff5f5f5"
+                android:textSize="20sp"></TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="25dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="80dp"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:id="@+id/txt_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="23"
+                android:textColor="#fff5f5f5"
+                android:textSize="20sp"></TextView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <com.material.widget.RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#fff5f5f5"
+        android:id="@+id/radioButton"
+        android:textColor="#ff08ff1a"
+        android:layout_gravity="right|top" />
+
+
+
+
+</FrameLayout>
