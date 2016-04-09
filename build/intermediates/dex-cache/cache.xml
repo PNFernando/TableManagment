@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/Res_WaiterUI/app/build/intermediates/exploded-aar/com.github.markushi/circlebutton/1.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ebe3b1f14fa79ba3cd1588acda4e6517ee9fe611">
+        <dex dex="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/Res_WaiterUI/app/build/intermediates/pre-dexed/debug/classes-fbcd55555351ebabb073d94426a77117bdeec627.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/WaiterUI/app/build/intermediates/exploded-aar/WaiterUI/material-library/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1dd02259ae4e04d929602d2903f9d21badb831bd">
+        <dex dex="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/WaiterUI/app/build/intermediates/pre-dexed/debug/classes-a1039c014dac39ad9d89a1d0a12fa5b12975fb60.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/.gradle/caches/modules-2/files-2.1/org.springframework.android/spring-android-rest-template/1.0.1.RELEASE/e132d929bd181941f79b0d63edafb8a86ae6fd33/spring-android-rest-template-1.0.1.RELEASE.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e132d929bd181941f79b0d63edafb8a86ae6fd33">
+        <dex dex="/home/pramoda-nf/Chatty.v0.01/app/build/intermediates/pre-dexed/debug/spring-android-rest-template-1.0.1.RELEASE-91d6a6a1bcae5b1db2398e97410358ee4cb45527.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/WaiterUI/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/WaiterUI/app/build/intermediates/pre-dexed/debug/classes-260a8a9947613aeaa9690a516568c7067c23be24.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/WaiterUI/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/WaiterUI/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-931f8b074226caa83d64e9900ecdd01d1191308b.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/.gradle/caches/modules-2/files-2.1/de.sven-jacobs/loremipsum/1.0/91bf10988b4a30a30786e53ca72b51b5f44c4458/loremipsum-1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="91bf10988b4a30a30786e53ca72b51b5f44c4458">
+        <dex dex="/home/pramoda-nf/Chatty.v0.01/app/build/intermediates/pre-dexed/debug/loremipsum-1.0-6a956137be1ed48525447b89aee6a48297617c7c.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/.gradle/caches/modules-2/files-2.1/org.androidannotations/androidannotations-api/3.2/89b33bb1e996eb2c4089f79d1b8651c71fe8e2d1/androidannotations-api-3.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="89b33bb1e996eb2c4089f79d1b8651c71fe8e2d1">
+        <dex dex="/home/pramoda-nf/Chatty.v0.01/app/build/intermediates/pre-dexed/debug/androidannotations-api-3.2-ffd4d5ceef85029611ac8e46972d351ee499616b.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/Chatty.v0.01/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/home/pramoda-nf/Chatty.v0.01/app/build/intermediates/pre-dexed/debug/classes-83f69bc335081b5c466b671d081a09547172b426.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/WaiterUI/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/WaiterUI/app/build/intermediates/pre-dexed/debug/classes-3bc5bab8fce1a2d359ecca082638004d3c568444.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/WaiterUI/app/build/intermediates/exploded-aar/com.github.markushi/circlebutton/1.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ebe3b1f14fa79ba3cd1588acda4e6517ee9fe611">
+        <dex dex="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/WaiterUI/app/build/intermediates/pre-dexed/debug/classes-8202d034b012e8f845becc38700cce137c5af16e.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/Chatty.v0.01/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/home/pramoda-nf/Chatty.v0.01/app/build/intermediates/pre-dexed/debug/classes-0df28a0876b89b73631132bdada48e6f0e8eb53c.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/.gradle/caches/modules-2/files-2.1/org.springframework.android/spring-android-core/1.0.1.RELEASE/e68f0e8e4b636ee30c4de58953be38d9b72a5e3b/spring-android-core-1.0.1.RELEASE.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e68f0e8e4b636ee30c4de58953be38d9b72a5e3b">
+        <dex dex="/home/pramoda-nf/Chatty.v0.01/app/build/intermediates/pre-dexed/debug/spring-android-core-1.0.1.RELEASE-504fdfa5f03ea96f846c3e152d468dc18f703b32.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/pramoda-nf/Chatty.v0.01/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-7adf132d02f59d6a913c5c94f9f11b3f72bb834a.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/Chatty.v0.01/app/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/18.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dafab6ae358e6c801605d50ff1fa761e77200c1a">
+        <dex dex="/home/pramoda-nf/Chatty.v0.01/app/build/intermediates/pre-dexed/debug/classes-f047c3f8c424ea1980693f0bd0c3e5fe0e19e7d5.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/Chatty.v0.01/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/home/pramoda-nf/Chatty.v0.01/app/build/intermediates/pre-dexed/debug/classes-fcbf94670ed99ee6fa61b832923e14fd41f9f287.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.3.2/c75edc740a6d8cb1cef6fa82fa594e0bce561916/jackson-databind-2.3.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c75edc740a6d8cb1cef6fa82fa594e0bce561916">
+        <dex dex="/home/pramoda-nf/Chatty.v0.01/app/build/intermediates/pre-dexed/debug/jackson-databind-2.3.2-b8d181a92fdc0175bae8c4358783a9a700e042c1.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/Res_WaiterUI/app/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/18.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dafab6ae358e6c801605d50ff1fa761e77200c1a">
+        <dex dex="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/Res_WaiterUI/app/build/intermediates/pre-dexed/debug/classes-47048a0158cad8c43a508f3ed79bc292b25fcd6a.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/WaiterUI/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.2.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="803c4c913beac8f7980d680c725a40835d1d7c77">
+        <dex dex="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/WaiterUI/app/build/intermediates/pre-dexed/debug/classes-f1e8a163b0a432ebd7e788b99ff782fab39bf975.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/Chatty.v0.01/app/build/intermediates/exploded-aar/Chatty.v0.01/material-library/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ae3092ca6a43dcbd30d110e7c925420c2ad2d74b">
+        <dex dex="/home/pramoda-nf/Chatty.v0.01/app/build/intermediates/pre-dexed/debug/classes-d41912f768fe161a9dad33285539ea2ca518ca13.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/Res_WaiterUI/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/Res_WaiterUI/app/build/intermediates/pre-dexed/debug/classes-aa8ba2f9393fbe22032d25103cb742d161159cc4.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/Res_WaiterUI/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.2.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="803c4c913beac8f7980d680c725a40835d1d7c77">
+        <dex dex="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/Res_WaiterUI/app/build/intermediates/pre-dexed/debug/classes-9e5886d0ea46d9a3fa3263e24fcbb5900659fa94.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/Chatty.v0.01/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.2.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="803c4c913beac8f7980d680c725a40835d1d7c77">
+        <dex dex="/home/pramoda-nf/Chatty.v0.01/app/build/intermediates/pre-dexed/debug/classes-e0776e082254bf7eecbb40b531f94e235d8684d8.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.3.0/f5e853a20b60758922453d56f9ae1e64af5cb3da/jackson-annotations-2.3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f5e853a20b60758922453d56f9ae1e64af5cb3da">
+        <dex dex="/home/pramoda-nf/Chatty.v0.01/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.3.0-49441b80cfd913652e95af93fc977b45a206f439.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/Chatty.v0.01/app/build/intermediates/exploded-aar/com.github.markushi/circlebutton/1.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ebe3b1f14fa79ba3cd1588acda4e6517ee9fe611">
+        <dex dex="/home/pramoda-nf/Chatty.v0.01/app/build/intermediates/pre-dexed/debug/classes-fc14857c682f4fcc7a6dbc8baaa5f91008440697.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.3.2/559b70ac8a0d5cad611da4223137a920147201ba/jackson-core-2.3.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="559b70ac8a0d5cad611da4223137a920147201ba">
+        <dex dex="/home/pramoda-nf/Chatty.v0.01/app/build/intermediates/pre-dexed/debug/jackson-core-2.3.2-a89019c67d7a206ed830dcd939e8ec946383d7c1.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/Res_WaiterUI/app/build/intermediates/exploded-aar/Res_WaiterUI/material-library/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="590078c62e371e282dc451348944311b7ff20c75">
+        <dex dex="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/Res_WaiterUI/app/build/intermediates/pre-dexed/debug/classes-8b79aef0689194bedbd78c37a8f8b41ea203ab43.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/WaiterUI/app/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/18.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dafab6ae358e6c801605d50ff1fa761e77200c1a">
+        <dex dex="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/WaiterUI/app/build/intermediates/pre-dexed/debug/classes-bf0b23daca21d64211725afc5438c0c8d7f4fa3d.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/Res_WaiterUI/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/Res_WaiterUI/app/build/intermediates/pre-dexed/debug/classes-f2c85a4bc096e0a0f5bba56ec89e673953b0d0fb.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/Res_WaiterUI/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/Res_WaiterUI/app/build/intermediates/pre-dexed/debug/classes-994f55fe5e9eed76a0c2d4e040d56be0e0897b23.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/Chatty.v0.01/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/home/pramoda-nf/Chatty.v0.01/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-a6cfd308a8c7e9daa2bc3cac96dc3f4c37b42ed8.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/WaiterUI/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/WaiterUI/app/build/intermediates/pre-dexed/debug/classes-0da0a38fdb67fd39173fb1cfa026061723d62965.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/software/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/home/pramoda-nf/Chatty.v0.01/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-e793871e8605c292c5f8a6a7329b17068027903d.jar" />
+    </item>
+    <item
+        jar="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/Res_WaiterUI/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/home/pramoda-nf/EgreenProject/MyProjects/ResturantManagement/Res_WaiterUI/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-ab422a8f9b10659b4bf84fc44df293e2799917a4.jar" />
+    </item>
+
+</items>
