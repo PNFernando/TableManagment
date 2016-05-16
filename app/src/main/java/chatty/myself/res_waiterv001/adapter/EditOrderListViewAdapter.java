@@ -22,21 +22,21 @@ import org.androidannotations.annotations.UiThread;
 import java.util.ArrayList;
 
 import chatty.myself.res_waiterv001.R;
-import chatty.myself.res_waiterv001.model.showmodel.CategoryModel;
-import chatty.myself.res_waiterv001.model.showmodel.CategoryModel;
+import chatty.myself.res_waiterv001.model.showmodel.EditOrder;
+import chatty.myself.res_waiterv001.model.showmodel.ShowChatty;
 
 /**
  * @author manish.s
  */
 
 @EBean
-public class CategoryGridViewAdapter extends BaseAdapter {
+public class EditOrderListViewAdapter extends BaseAdapter {
 
     @RootContext
     Context context;
 
 
-    ArrayList<CategoryModel> data = new ArrayList<CategoryModel>();
+    ArrayList<EditOrder> data = new ArrayList<EditOrder>();
 
     @AfterViews
     public void afterView() {
@@ -54,19 +54,20 @@ public class CategoryGridViewAdapter extends BaseAdapter {
 
     @Background
     void getDetails() {
-        String name = "Soft Drinks";
-        String url = "http://fc03.deviantart.net/fs70/f/2012/008/6/4/png_johnny_deep_by_clauueditions-d4lqghi.png";
-    
+        String id = "6b3gf51hbfg6bh5fg16gf51g3bn5g1bn63vg56b1n";
+        String name = "Saffron";
+        String type = "L";
+        String qty= "2";
 
-        data.add(new CategoryModel("Rice & Curry", url));
-        data.add(new CategoryModel("Salads & Soups", url));
-        data.add(new CategoryModel("Stuffed & Stacked", url));
-        data.add(new CategoryModel("Pasta", url));
-        data.add(new CategoryModel("Pizza", url));
-        data.add(new CategoryModel("Desserts", url));
-        data.add(new CategoryModel("For Kids", url));
-        data.add(new CategoryModel("Drinks", url));
-        data.add(new CategoryModel("Dishes", url));
+        data.add(new EditOrder(id,name,type,qty));
+        data.add(new EditOrder(id,name,type,qty));
+        data.add(new EditOrder(id,name,type,qty));
+        data.add(new EditOrder(id,name,type,qty));
+        data.add(new EditOrder(id,name,type,qty));
+        data.add(new EditOrder(id,name,type,qty));
+        data.add(new EditOrder(id,name,type,qty));
+        data.add(new EditOrder(id,name,type,qty));
+
         changeUi();
     }
 
@@ -94,42 +95,36 @@ public class CategoryGridViewAdapter extends BaseAdapter {
 //
         if (row == null) {
             LayoutInflater inflater = ((Activity) context).getLayoutInflater();
-            row = inflater.inflate(R.layout.row_item, parent, false);
+            row = inflater.inflate(R.layout.row_editorder, parent, false);
 
             holder = new RecordHolder();
             holder.txtName = (TextView) row.findViewById(R.id.txt_name);
-//            holder.imageView = (ImageView) row.findViewById(R.id.item_image);
+            holder.txtType = (TextView) row.findViewById(R.id.txt_type);
+            holder.txtQty = (TextView) row.findViewById(R.id.txt_qty);
+
+
 
             row.setTag(holder);
         } else {
             holder = (RecordHolder) row.getTag();
         }
-//
-//        Item item = data.get(position);
-//        holder.txtTitle.setText(item.getTitle());
-//        holder.imageItem.setImageBitmap(item.getImage());
 
-//        ImageView imageView = (ImageView) row.findViewById(R.id.item_image);
 
-        CategoryModel item = data.get(position);
+
+
+        EditOrder item = data.get(position);
         holder.txtName.setText(item.getName());
+        holder.txtType.setText(item.getType());
+        holder.txtQty.setText(item.getQty());
 
 
-
-        //holder.imageUrl.setImageBitmap(item.getImage());
-
-//        Picasso.with(context).load(Uri.parse(item.getUrl())).into(holder.imageView);
-
-
-
-//        imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-        //imageView.setAlpha(127);
         return row;
     }
 
     static class RecordHolder {
         TextView txtName;
-        ImageView imageView;
+        TextView txtType;
+        TextView txtQty;
 
 
     }

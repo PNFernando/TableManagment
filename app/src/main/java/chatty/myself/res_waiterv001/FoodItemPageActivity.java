@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.GridView;
 import android.widget.ListView;
 
@@ -22,13 +23,13 @@ import java.util.HashMap;
 import chatty.myself.res_waiterv001.adapter.CategoryGridViewAdapter;
 import chatty.myself.res_waiterv001.adapter.ItemListViewAdapter;
 import chatty.myself.res_waiterv001.adapter.OrderListViewAdapter;
+import chatty.myself.res_waiterv001.utill.ChatHeadService;
 import chatty.myself.res_waiterv001.utill.HorizontalListView;
 import chatty.myself.res_waiterv001.utill.Constant;
 
 
 @EActivity(R.layout.activity_food_item)
 public class FoodItemPageActivity extends Activity {
-
 
 
     @Bean
@@ -40,32 +41,24 @@ public class FoodItemPageActivity extends Activity {
     @ViewById
     HorizontalListView categoryHorizontalListView;
 
-
     @ViewById
     ListView foodItemListView;
 
     private ArrayList<HashMap> data;
 
 
-
-
-
-
     @AfterViews
-    void initViews(){
+    void initViews() {
 
         categoryHorizontalListView.setAdapter(categoryGridViewAdapter);
-
-
         foodItemListView.setAdapter(itemListViewAdapter);
     }
-
-
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_food_item);
     }
 
@@ -93,7 +86,19 @@ public class FoodItemPageActivity extends Activity {
     }
 
 
+    @Override
+    protected void onStart() {
+        // TODO Auto-generated method stub
+        super.onStart();
+        startService(new Intent(getApplication(), ChatHeadService.class));
+    }
 
+    @Override
+    protected void onDestroy() {
+        // TODO Auto-generated method stub
+        super.onDestroy();
+        stopService(new Intent(getApplication(), ChatHeadService.class));
+    }
 
 
     @Click
@@ -102,4 +107,11 @@ public class FoodItemPageActivity extends Activity {
         startActivity(intent);
     }
 
+    @Click
+    void btn_editOrder() {
+        OrderEditDialog dialogSelectAdding = new OrderEditDialog_();
+        android.app.FragmentManager fragmentManager = getFragmentManager();
+        dialogSelectAdding.setMenuVisibility(true);
+        dialogSelectAdding.show(fragmentManager, "Choose Youre Option");
+    }
 }

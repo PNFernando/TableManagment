@@ -61,6 +61,9 @@ dependencies {
     compile 'com.github.markushi:circlebutton:1.1'
     compile 'com.android.support:gridlayout-v7:18.0.+'
     compile 'de.hdodenhof:circleimageview:1.2.2'
+
+    compile 'com.shamanland:fab:0.0.8'
+
 }
 
 buildscript {

@@ -70,6 +70,14 @@
 
                 <Button
                     android:layout_gravity="right"
+                    android:id="@+id/btn_editOrder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EDIT" />
+
+                <Button
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_gravity="right"
                     android:id="@+id/btn_cancelOrder"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -77,19 +85,14 @@
                     android:text="CANCEL" />
 
                 <Button
+                    style="@style/Widget.AppCompat.Button"
                     android:layout_gravity="right"
                     android:id="@+id/btn_checkOrder"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="CHECK" />
 
-
                 </LinearLayout>
-
-
         </LinearLayout>
-
-
     </RelativeLayout>
-
 </RelativeLayout>

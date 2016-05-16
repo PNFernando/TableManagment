@@ -53,19 +53,19 @@ public class ItemListViewAdapter extends BaseAdapter {
 
     @Background
     void getDetails() {
-        String name = "Johnny";
-        String url = "http://fc03.deviantart.net/fs70/f/2012/008/6/4/png_johnny_deep_by_clauueditions-d4lqghi.png";
+        String name = "Pilau Rice With Saffron";
+        String url = "https://whatjessicabakednext.files.wordpress.com/2015/05/dsc00287.jpg";
         String age= "22";
 
-        data.add(new ShowChatty(name, url, "I would like to add you as a chattysdvbdsfvsdvsdvsvsvsdvsdvsd", true));
-        data.add(new ShowChatty(name, url, "I would like to add you as a chattysdvbdsfvsdvsdvsvsvsdvsdvsd", false));
-        data.add(new ShowChatty(name, url, "I would like to add you as a chattysdvbdsfvsdvsdvsvsvsdvsdvsd", true));
-        data.add(new ShowChatty(name, url, "I would like to add you as a chattysdvbdsfvsdvsdvsvsvsdvsdvsd", true));
-        data.add(new ShowChatty(name, url, "I would like to add you as a chattysdvbdsfvsdvsdvsvsvsdvsdvsd", false));
-        data.add(new ShowChatty(name, url, "I would like to add you as a chattysdvbdsfvsdvsdvsvsvsdvsdvsd", true));
-        data.add(new ShowChatty(name, url, "I would like to add you as a chattysdvbdsfvsdvsdvsvsvsdvsdvsd", true));
-        data.add(new ShowChatty(name, url, "I would like to add you as a chattysdvbdsfvsdvsdvsvsvsdvsdvsd", false));
-        data.add(new ShowChatty(name, url, "I would like to add you as a chattysdvbdsfvsdvsdvsvsvsdvsdvsd", false));
+        data.add(new ShowChatty("Plain Basmathi Rice", "http://maharajawestseattle.com/images/plain_Basmati%20rice.jpg", "This is sample food,This is sample food This is sample food", true));
+        data.add(new ShowChatty("Onion Rice", "http://cdn1.tmbi.com/TOH/Images/Photos/37/300x300/exps35817_CFT961319D45B.jpg", "This is sample food,This is sample food This is sample food", false));
+        data.add(new ShowChatty("Sea Food Rice", "http://www.bbcgoodfood.com/sites/default/files/recipe_images/recipe-image-legacy-id--218528_10.jpg","This is sample food,This is sample food This is sample food", true));
+        data.add(new ShowChatty("Vegitable Rice", "http://www.dinner-mom.com/wp-content/uploads/2014/03/Vegetable-Rice-Bowls-with-Parmesan-Cheese-IMG_1163.jpg", "This is sample food,This is sample food This is sample food", true));
+        data.add(new ShowChatty("Special Fried Rice", "http://mandarinbeijingcuisine.com/wp-content/uploads/2013/07/fried_rice-906x859.jpg", "This is sample food,This is sample food This is sample food", false));
+        data.add(new ShowChatty("Mushroom Fried Rice", "http://www.khiewchanta.com/images/bacon-mushroom-fried-rice.jpg", "This is sample food,This is sample food This is sample food", true));
+        data.add(new ShowChatty("Mixed Rice", "http://www.mezbaan.ae/image/data/Website%20Photos/Chinese/Mixed%20Fried%20Rice%20%20.jpg", "This is sample food,This is sample food This is sample food", true));
+        data.add(new ShowChatty("Nasigoraing", "http://tarasmulticulturaltable.com/wp-content/uploads/2013/07/nasi-goreng-1-of-3.jpg", "This is sample food,This is sample food This is sample food", false));
+        data.add(new ShowChatty(name, url, "This is sample food,This is sample food This is sample food", false));
         changeUi();
     }
 

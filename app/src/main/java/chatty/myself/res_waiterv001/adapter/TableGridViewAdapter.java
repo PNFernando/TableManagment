@@ -57,12 +57,12 @@ public class TableGridViewAdapter extends BaseAdapter {
 
     @Background
     void getDetails() {
-        String name = "Johnny";
-        String url = "http://fc03.deviantart.net/fs70/f/2012/008/6/4/png_johnny_deep_by_clauueditions-d4lqghi.png";
+        String name = "Coffie Table 01";
+        String url = "http://g03.a.alicdn.com/kf/HTB1pHVAJFXXXXbnXFXXq6xXFXXX7/Wood-chair-chair-hotel-chair-painted-wood-and-steel-structure-small-tables-and-chairs-combination-of.jpg";
         String age = "22";
 
-        data.add(new ShowChatty(name, url, age, true));
-        data.add(new ShowChatty(name, url, age, false));
+        data.add(new ShowChatty("Main Table 01", "http://pimg.tradeindia.com/01249650/b/1/Hotel-Dining.jpg", age, true));
+        data.add(new ShowChatty("Garden Table 01", "http://previews.123rf.com/images/lunglee/lunglee1405/lunglee140500023/29650440-Many-wooden-tables-and-chairs-on-terrace-in-hotel-restaurant--Stock-Photo.jpg", age, false));
         data.add(new ShowChatty(name, url, age, true));
         data.add(new ShowChatty(name, url, age, true));
         data.add(new ShowChatty(name, url, age, false));

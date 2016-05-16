@@ -7,9 +7,12 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 
 import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EActivity;
+
+import chatty.myself.res_waiterv001.utill.ChatHeadService;
 
 
 @EActivity(R.layout.activity_home_page)
@@ -28,6 +31,9 @@ public class HomePageActivity extends Activity {
         getMenuInflater().inflate(R.menu.menu_home_page, menu);
         return true;
     }
+
+
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
